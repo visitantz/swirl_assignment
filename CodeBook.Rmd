@@ -4,10 +4,6 @@ author: "visitantz"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 **data_tidy** is a table of summarising of mean values of all measurements by group 'dataset' and 'activity'.
 
 ### Group Variables
