@@ -1,0 +1,46 @@
+---
+title: "CodeBook"
+author: "visitantz"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**data_tidy** is a table of summarising of mean values of all measurements by group 'dataset' and 'activity'.
+
+### Group Variables
+
+**dataset**: test, train
+
+**activity**: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+### Measurements
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ<br>
+tGravityAcc-XYZ<br>
+tBodyAccJerk-XYZ<br>
+tBodyGyro-XYZ<br>
+tBodyGyroJerk-XYZ<br>
+tBodyAccMag<br>
+tGravityAccMag<br>
+tBodyAccJerkMag<br>
+tBodyGyroMag<br>
+tBodyGyroJerkMag<br>
+fBodyAcc-XYZ<br>
+fBodyAccJerk-XYZ<br>
+fBodyGyro-XYZ<br>
+fBodyAccMag<br>
+fBodyAccJerkMag<br>
+fBodyGyroMag<br>
+fBodyGyroJerkMag<br>
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value<br>
+std(): Standard deviation<br>
