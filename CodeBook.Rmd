@@ -4,11 +4,12 @@ author: "visitantz"
 output: html_document
 ---
 
-**data_tidy** is a table of summarising of mean values of all measurements by group 'dataset' and 'activity'.
+
+**data_tidy** is a table of summarising of mean values of all measurements by group 'subject' and 'activity'.
 
 ### Group Variables
 
-**dataset**: test, train
+**subject**: 1-30
 
 **activity**: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
